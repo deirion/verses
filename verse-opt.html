@@ -1,0 +1,24 @@
+{{if .Success}}
+	<h1>Thanks for your message!</h1>
+{{else}}
+	<h1>Verses - Daily Review</h1>
+	<form method="POST">
+        <input type="radio" name="vfileid" value="emaw_verses" checked> All of EMAW verses<br>
+        <input type="radio" name="vfileid" value="emaw_verses-1" checked> EMAW verses - book 1<br>
+        <input type="radio" name="vfileid" value="emaw_verses-2" checked> EMAW verses - book 2<br>
+        <input type="radio" name="vfileid" value="emaw_verses-3" checked> EMAW verses - book 3<br><br>
+
+        <input type="radio" name="vfileid" value="verses" checked> All of my verses<br><br>
+
+        <input type="radio" name="vfileid" value="tmbc" checked> Topical Memory System - Beginning with Christ<br>
+        <input type="radio" name="vfileid" value="tma" checked> Topical Memory System - A- Living the New Life<br>
+        <input type="radio" name="vfileid" value="tmb" checked> Topical Memory System - B- Proclaim Christ<br>
+        <input type="radio" name="vfileid" value="tmc" checked> Topical Memory System - C- Rely on God's Resources<br>
+        <input type="radio" name="vfileid" value="tmd" checked> Topical Memory System - D- Be Christ's Disciple<br>
+        <input type="radio" name="vfileid" value="tme" checked> Topical Memory System - E- Grow in Christlikeness<br>
+        <input type="radio" name="vfileid" value="tm" checked> Topical Memory System - All<br>
+
+		<input type="submit">
+    
+	</form>
+{{end}}

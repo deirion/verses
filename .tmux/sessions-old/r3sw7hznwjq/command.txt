@@ -1,0 +1,1 @@
+go run emaw_verses.go
