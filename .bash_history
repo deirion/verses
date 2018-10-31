@@ -315,3 +315,10 @@ git commit -m "first"
 git config --global user.name "dei"
 git config --global user.email "deirion@gmail.com"
 git status
+git add --all
+git status
+git commit -m "first"
+git status
+git push
+git status
+git add

@@ -5,8 +5,8 @@ declare -A BASH_ALIASES='()'
 declare -a BASH_ARGC='()'
 declare -a BASH_ARGV='()'
 declare -A BASH_CMDS='()'
-declare -- BASH_COMMAND="git add --all"
-declare -a BASH_LINENO='([0]="43")'
+declare -- BASH_COMMAND="git add ."
+declare -a BASH_LINENO='([0]="53")'
 declare -ar BASH_REMATCH='()'
 declare -a BASH_SOURCE='([0]="/home/ubuntu/.bashrc")'
 declare -- BASH_SUBSHELL
@@ -67,5 +67,5 @@ declare -x TMUX_SESSION_NAME="zt2lcxp96a"
 declare -- TRAP_DEBUG_COMMAND="[[ \${BASH_COMMAND} =~ ^history ]] || ( echo -ne \"\\033]0;\"; echo -n \"\${BASH_COMMAND} - \${PWD/\\/home\\/ubuntu/\\~}\"; echo -ne \"\\007\";tmux_save_session \"\${BASH_COMMAND}\")"
 declare -ir UID="1000"
 declare -x USER="ubuntu"
-declare -- _="git add --all"
-declare -- command="git add --all"
+declare -- _="git add ."
+declare -- command="git add ."
