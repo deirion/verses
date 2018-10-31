@@ -322,3 +322,10 @@ git status
 git push
 git status
 git add
+git add .
+git status
+git commit
+git status
+git commit -m "second"
+git push
+git status
